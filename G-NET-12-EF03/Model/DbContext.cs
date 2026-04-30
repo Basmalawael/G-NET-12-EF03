@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace G_NET_12_EF02.Model
 {
     internal class AppDbContext : DbContext 
-    { 
+    {  
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Server= . ; Database = EventHubDb ; Trusted_Connection=True;" +
