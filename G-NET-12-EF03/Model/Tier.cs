@@ -8,7 +8,7 @@ namespace G_NET_12_EF02.Model
 {
     public enum Tier
     {
-        vip , 
+        vip ,  
         Standard
     }
 }
