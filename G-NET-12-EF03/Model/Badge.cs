@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace G_NET_12_EF02.Model
 {
     internal class Badge 
-    {
+    { 
         public int BadgeID { get; set; }
         public string BadgeNumber { get; set; }
         public DateTime IssuedDate { get; set; }
