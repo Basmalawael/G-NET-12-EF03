@@ -11,7 +11,7 @@ namespace G_NET_12_EF02.Model
 {
     internal class Organizer
     { 
-        [Key]
+        [Key] 
         [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
         public int OrganizerID { get; set; }
 
