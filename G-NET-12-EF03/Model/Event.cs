@@ -9,7 +9,7 @@ namespace G_NET_12_EF02.Model
 {
     internal class Event
     {
- 
+
         public int EventID { get; set; }
         public string Title { get; set; }
         public string Description { get; set; } 
