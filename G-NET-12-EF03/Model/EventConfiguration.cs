@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace G_NET_12_EF02.Model
 {
     internal class EventConfiguration : IEntityTypeConfiguration<Event>
-    {    
+    {     
         public void Configure(EntityTypeBuilder<Event> builder)
         {
          builder.HasKey(E => E.EventID);
